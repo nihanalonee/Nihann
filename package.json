@@ -1,0 +1,29 @@
+{
+  "name": "omnilife-the-syndicate",
+  "version": "1.0.0",
+  "private": true,
+  "description": "OmniLife: The Syndicate — a living economic MMO simulation",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "node server.mjs",
+    "test": "tsx --test tests/*.test.ts",
+    "lint": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.57.4",
+    "lucide-react": "^1.66.0",
+    "next": "^16.4.3",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.3.3",
+    "@types/node": "^22.18.0",
+    "@types/react": "^19.1.0",
+    "@types/react-dom": "^19.1.0",
+    "tailwindcss": "^4.3.3",
+    "tsx": "^4.20.6",
+    "typescript": "^5.9.2"
+  }
+}
